@@ -1,0 +1,12 @@
+.clip-1 {
+    background: url(../assets/box.png);
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.clip-2 {
+    background: url(../assets/box-2.png);
+    width: 100%;
+    background-repeat: no-repeat;
+}
+

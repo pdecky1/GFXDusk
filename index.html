@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Dusk | GFX</title>
+</head>
+<body>
+    <section class="w-full md:h-screen h-full overflow-hidden">
+
+        <div class=" flex flex-row justify-between p-4 md:scale-100 scale-75">
+            <div class="md:flex flex-row relative hidden">
+                <div class="bg-[#080A1E] p-5 rounded-full z-10">
+                    <img src="./assets/search-icon.svg" alt="">
+                </div>
+                <div class="bg-[#F5F5FB] p-5 rounded-full relative -left-3">
+                    <input type="search" name="search" id="" placeholder="Task name, status..." class="bg-inherit placeholder:font-medium outline-none">
+                </div>
+            </div>
+            <div class="">
+                <img src="./assets/logo.png" alt="">
+            </div>
+            <div class="flex flex-row gap-x-2">
+                <div class="bg-[#F5F5FB] p-5 rounded-full">
+                    <img src="./assets/notification-icon.svg" alt="">
+                </div>
+                <div class="bg-[#F5F5FB] pl-5 rounded-full flex flex-row items-center gap-x-3">
+                    <h1 class="font-medium">Hi, Mr. Lazy</h1>
+                    <img src="./assets/profile.png" alt="" class="">
+                </div>
+                <div class="bg-[#C9F5B8] p-5 rounded-full hidden md:flex flex-row items-center gap-x-3">
+                    <img src="./assets/category-icon.svg" alt="">
+                    <h1 class="font-medium">Upgrade</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="hidden md:flex flex-col bg-transparent  backdrop-blur-md rounded-2xl absolute right-24 py-20 px-10" >
+            <div class="flex flex-row items-center gap-x-3">
+                <h1 class="font-medium text-[32px]">Habit</h1>
+                <h1 class="font-medium text-[32px] px-3 py-1 border border-black rounded-full w-fit">tracker</h1>
+            </div>
+            <h1 class="font-medium text-lg">Today, Dec 28, 2030</h1>
+            <div class=" flex flex-col pt-5">
+                <div class="flex flex-row items-center">
+                    <div class="bg-black rounded-full text-white p-3 gap-x-3 flex flex-row items-center">
+                        <img src="./assets/tick-square.png" alt="">
+                        <h1>Finish a Task</h1>
+                    </div>
+                    <div class="bg-black rounded-full text-white p-3 gap-x-3 flex flex-row items-center">
+                        <img src="./assets/tick-square.png" alt="">
+                        <h1>Get paid or pre-paid</h1>
+                    </div>
+                </div>
+                <div class="border border-black rounded-full p-3 gap-x-3 flex flex-row items-center">
+                    <img src="./assets/tick-square-black.png" alt="">
+                    <h1>Complete at least 10 task today - 2/10</h1>
+                </div>
+                <div class="flex flex-row items-center">
+                    <div class="border border-black rounded-full p-3 gap-x-3 flex flex-row items-center">
+                        <img src="./assets/tick-square-black.png" alt="">
+                        <h1>Send 05 proposals</h1>
+                    </div>
+                    <div class="border border-black rounded-full p-3 gap-x-3 flex flex-row items-center">
+                        <img src="./assets/tick-square-black.png" alt="">
+                        <h1>Got hired</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class=" flex flex-col absolute md:left-24 md:top-60 left-20 md:z-10 z-0">
+            <h1 class="font-medium md:text-[45px] text-3xl md:pb-3">Today is</h1>
+            <div class="w-fit border border-black rounded-full md:px-5 md:py-3 px-3 py-1">
+                <h1 class="font-medium md:text-[45px] text-3xl ">a best</h1>
+            </div>
+            <div class="w-fit border border-black rounded-full md:px-5 md:py-3 px-3 py-1  ml-4">
+                <h1 class="font-medium md:text-[45px] text-3xl">day to win</h1>
+            </div>
+        </div>
+
+        <div class="w-full flex justify-center overflow-hidden">
+            <img src="./assets/dusk.png" alt="" class="absolute md:bottom-0 md:scale-100 bottom-32 scale-[2] z-0">
+        </div>
+
+        <div class="flex flex-col absolute md:w-3/4 md:mx-0 mx-5 md:left-24 md:bottom-6 bottom-4  z-10">
+            <div class="flex self-start flex-row items-center gap-x-3 justify-center">
+                <h1 class="font-medium md:text-[32px] text-xl">Habit</h1>
+                <div class="border bg-white border-black rounded-full px-2 md:pb-2 pb-1 flex items-center">
+                    <h1 class="font-medium md:text-[32px] text-xl ">summary</h1>
+                </div>
+            </div>
+            <div class="flex flex-row pt-5">
+
+                <div class="md:flex relative flex-row gap-x-5 hidden">
+                    <div class="w-full">
+                        <img src="./assets/box.png" alt="" class="z-0 absolute">
+                        <div class="relative">
+                            <div class="absolute p-5 bg-[#C9F5B8] rounded-full left-40">
+                                <img src="./assets/next.svg" alt="">
+                            </div>
+                            <div class="relative md:pl-10 md:pr-20 py-10 ">
+                                <h1 class="text-[#8A8AAA] font-bold text-xl">To do</h1>
+                                <div class=" pt-20 flex flex-row">
+                                    <h1 class="font-bold text-4xl">158</h1>
+                                    <h1>tasks</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full">
+                        <img src="./assets/box.png" alt="" class="z-0 absolute">
+                        <div class="relative">
+                            <div class="absolute p-5 bg-black rounded-full left-40">
+                                <img src="./assets/next-white.png" alt="">
+                            </div>
+                            <div class="relative w-fit md:pl-10 md:pr-24 py-10 ">
+                                <h1 class="text-black font-bold text-xl">On going</h1>
+                                <div class=" pt-20 flex flex-row">
+                                    <h1 class="font-bold text-4xl">26</h1>
+                                    <h1>tasks</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex flex-row gap-x-2">
+                    <div class="md:hidden relative flex flex-row w-1/2 gap-x-2">
+                        <div class="w-full flex flex-col">
+                            <img src="./assets/box-2.png" alt="z-0 absolute">
+                            <div class="absolute bg-[#C9F5B8] p-2 rounded-full top-0 right-0">
+                                <img src="./assets/next.svg" alt="">
+                            </div>
+                            <div class="absolute p-5 flex flex-col gap-y-9">
+                                <h1 class="text-[#8A8AAA] font-bold text-lg">To do</h1>
+                                <div class=" flex flex-row">
+                                    <h1 class="font-bold text-2xl">158</h1>
+                                    <h1 class="text-sm">tasks</h1>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="md:hidden relative flex flex-row w-1/2 gap-x-2">
+                        <div class="w-full flex flex-col">
+                            <img src="./assets/box-2.png" alt="z-0 absolute">
+                            <div class="absolute bg-black p-2 rounded-full top-0 right-0">
+                                <img src="./assets/next-white.png" alt="">
+                            </div>
+                            <div class="absolute p-5 flex flex-col gap-y-9">
+                                <h1 class="text-[#8A8AAA] font-bold text-lg">On going</h1>
+                                <div class=" flex flex-row">
+                                    <h1 class="font-bold text-2xl">26</h1>
+                                    <h1 class="text-sm">tasks</h1>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+
+        <div class="absolute left-4 md:bottom-4 bottom-88 flex flex-col gap-y-2">
+            <div class="p-4 bg-[#F5F5FB] rounded-full hover:bg-slate-200 transition-colors">
+                <img src="./assets/home-icon.svg" alt="">
+            </div>
+            <div class="p-4 bg-[#F5F5FB] rounded-full hover:bg-slate-200 transition-colors">
+                <img src="./assets/note-icon.svg" alt="">
+            </div>
+            <div class="p-4 bg-[#F5F5FB] rounded-full hover:bg-slate-200 transition-colors">
+                <img src="./assets/command-icon.svg" alt="">
+            </div>
+            <div class="p-4 bg-[#F5F5FB] rounded-full hover:bg-slate-200 transition-colors">
+                <img src="./assets/save-icon.svg" alt="">
+            </div>
+        </div>
+
+
+
+    </section>
+</body>
+</html>
